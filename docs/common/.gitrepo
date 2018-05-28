@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:emlid/reach-docs-common.git
+	branch = master
+	commit = 65e39cd3c71a0e461532385b60be1cf539091fad
+	parent = 88226ff563cb1bde9b06b753b994c37f4fa574c1
+	cmdver = 0.3.1
