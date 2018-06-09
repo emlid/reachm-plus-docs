@@ -39,7 +39,7 @@ A guide how to properly place the antennas is available in [Antenna Placement](a
 
 ## Connecting to Reach
 
-When Reach is powered for the first time it will create a Wi-Fi hotspot.
+When Reach M+ is powered for the first time it will create a Wi-Fi hotspot.
 
 * Open a list of Wi-Fi networks on your smartphone, tablet or laptop.
 
@@ -49,80 +49,54 @@ When Reach is powered for the first time it will create a Wi-Fi hotspot.
 
 ## Setting up Wi-Fi
 
-After connecting to the network hosted by reach, open a web browser on your smartphone, tablet or laptop.
-
-* Type either **http://reach.local** or **http://192.168.42.1** in the address bar and you will see ReachView Updater.
-
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_updater_main.png" style="width: 700px;"></div><br>
-
-!!! note
-    If your interface looks different, you need to reflash Reach device with v2.3 image by following [this guide](common/reachview/firmware-reflashing). You only need to do this if your device was purchased before 1 March 2017.
-
-* Press plus button and enter your Wi-Fi network name, security type and password. Press Save button.
-
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_updater_wifi.png" style="width: 700px;"></div><br>
-
-* Press on your added network and click Connect. 
-
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_updater_wifi_connect.png" style="width: 600px;"></div><br>
-
-* After that Reach device will attempt to connect your Wi-Fi network.
-
-!!! tip 
-    If your device did not connect to Wi-Fi network it will switch to hotspot mode.
-    You can find Reach on **http://reach.local** or **http://192.168.42.1**.
-    Check your network name and password and try again.  
-
-## Accessing Reach RS device in a network
-
-After connecting Reach device to an existing Wi-Fi network, you will need to identify it's IP. You may either use network scanning tools or use ReachView app for Android/iOS. 
-
-### Network scanning tools
-
-For this you can use:
-
-* "**Fing**" app for [iOS](https://goo.gl/Ho0qB) or [Android](https://goo.gl/7Wuwu).
-
-* ["**Nmap**"](https://nmap.org/) on Linux/OS X.
-
-* ["**Zenmap**"](https://nmap.org/zenmap/) on Windows. 
-
-<div style="text-align: center;"><img src="../img/reach/quickstart/fing.png" style="width: 500px;"></div><br>
-
-* Reach will show up as "**Murata Manufacturing**" device in these apps.
-
-* Put Reach IP in address bar and go.
-
-Read more on resolving IP addresses in the [ReachView section](common/reachview/).
-
-### App for iOS/Android
-
-Since ReachView v.2.8.0 you can connect to your Reach device with an app using your Android or iOS device.
-
+* Get ReachView app for your mobile device:
 
 | Download links |  |
 |-------------|----------|
 |[Google Play](https://play.google.com/store/apps/details?id=com.reachview)|[App Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)|
 
-After launching the app you'll see the list of the available receivers in your network. 
+* Launch the app and choose available Reach M+ from the list. You will see ReachView updater.
 
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_ios_android.png" style="width: 400px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_updater_main.png" style="width: 350px;"></div><br>
+
+* Press plus button and enter your Wi-Fi network name, security type and password. Press Save button
+
+!!! danger "Assure you are connecting to the existing network (such as home wi-fi, mobile phone hotspot, etc)"
+    Use your Wi-Fi network name and password. The name of the network on the screenshot below is an example. 
+
+<div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_updater_wifi.png" style="width: 350px;"></div><br>
+
+* Press on your added network and click Connect. 
+
+<div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_updater_wifi_connect.png" style="width: 350px;"></div><br>
+
+* After that Reach device will attempt to connect your Wi-Fi network.
+
+!!! tip 
+    If your device did not connect to Wi-Fi network it will switch to hotspot mode. Check your network name and password and try again.
+
+
+* After connecting Reach device to an existing Wi-Fi network you can reconnect with your mobile device to the same network and see your Reach M+ in iOS/Android ReachView app.
+
+<div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_ios_android.png" style="width: 400px;"></div><br>
+
+
+Read more on resolving IP addresses in the [ReachView section](common/reachview/).
 
 !!! danger "Reach can't work on the 192.168.2.xx subnet "
     As 192.168.2.x subnet is reserved inside Reach for Ethernet connections, you will need to perform initial setup in a different Wi-Fi or change router settings. Routers usually have a setting to change the subnet address, so you can set it to 192.168.1.xx.
-
 
 ## Updating ReachView
 
 After connecting to Reach you will see ReachView Updater again which will install latest updates.
 
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_updater_finish.png" style="width: 700px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_updater_finish.png" style="width: 350px;"></div><br>
 
 * Press **Reboot and go to the app!** button. Wait while device reboots.
 
 * In about a minute refresh the page with ReachView app.
 
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_loading.png" style="width: 800px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_loading.png" style="width: 800px;"></div><br>
 
 
 ## Working with ReachView app
@@ -130,7 +104,7 @@ After connecting to Reach you will see ReachView Updater again which will instal
 
 ### Interface walkthrough
 
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_status_menu.png" style="width: 800px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_status_menu.png" style="width: 800px;"></div><br>
 
 ReachView menu consists of 9 tabs, but we only need three of them to start work:
 
@@ -148,7 +122,7 @@ ReachView menu consists of 9 tabs, but we only need three of them to start work:
 
 * Wait until base averages it's position in Base coordinates box.
 
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_base_mode_menu.png" style="width: 1200px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_base_mode_menu.png" style="width: 1200px;"></div><br>
 
 By default, base output stream will be available on a **TCP port 9000**.
 
@@ -159,7 +133,7 @@ By default, base output stream will be available on a **TCP port 9000**.
 
 * Navigate to **Correction input** tab. 
 
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_correction_input_tab.png" style="width: 800px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_correction_input_tab.png" style="width: 800px;"></div><br>
 
 * Choose TCP correction mode.
 
@@ -171,7 +145,7 @@ By default, base output stream will be available on a **TCP port 9000**.
 
 * Choose correction input **Format**. Default one is **RTCM3**. 
 
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_correction_input_tcp.png" style="width: 800px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_correction_input_tcp.png" style="width: 800px;"></div><br>
 
 * Save settings by pushing **Apply** button.
 
@@ -180,7 +154,7 @@ By default, base output stream will be available on a **TCP port 9000**.
 
 * Go to **Status** tab of the app on the rover device.
 
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_status_menu_correction.png" style="width: 800px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_status_menu_correction.png" style="width: 800px;"></div><br>
 
 You can see a bar chart with satellite levels, RTK parameters, positioning mode and solution status, current coordinates of rover and base in LLH format, velocity and map. In this quick tutorial, positioning mode is set to "Kinematic" which is the main RTK mode.
 
@@ -197,7 +171,7 @@ You can see a bar chart with satellite levels, RTK parameters, positioning mode 
 
 * If everything has been set up correctly and base and rover have good sky visibility, you should see **Solution status** change to **Fix** in a few minutes. **Fix** means that positioning is relative to the base and the integer ambiguity is resolved.
 
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_status_menu_fix.png" style="width: 800px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_status_menu_fix.png" style="width: 800px;"></div><br>
 
 * Now you can see <font color="green"> green </font> points on the map below. <font color="orange"> Orange </font> points show **Float** solution. <font color="red"> Red </font> - **Single** solution.
 

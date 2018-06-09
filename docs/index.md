@@ -1,34 +1,22 @@
-<div style="text-align: center;"><img src="img/reach/Reach_400x400-400x380.png" style="width: 350px;"></div><br>
+<div style="text-align: center;"><img src="img/reachm-plus/reachm-plus.png" style="width: 350px;"></div><br>
 
-### Reach RTK kit
+## Package contents
 
-Reach RTK kit includes the following:
+In the box:
 
-* 2x Reach RTK module
+* 1 x Reach M+ module
 
-* 2x Tallysman TW4721 antenna with adhesive mount
+* 1 x USB cable 
 
-* 2x DF13 <-> DF13 straight cable
+* 1 x USB-OTG cable
 
-* 2x DF13 <-> jumper wires cable
+* 1 x JST-GH 6-pin to jumper pin cable 
 
-* 2x Micro-USB <-> USB cable
+* 1 x JST-GH 5-pin to jumper pin cable
 
-* 2x Micro-USB <-> USB-F OTG cable
+Optionally: 
 
-### Standalone Reach unit
-
-Standalone Reach units come with the following:
-
-* Reach RTK module
-
-* DF13 <-> DF13 straight cable
-
-* DF13 <-> jumper wires cable
-
-* Micro-USB <-> USB cable
-
-* Micro-USB <-> USB-F OTG cable
+* 1 x Tallysman multi-GNSS antenna 
 
 
 ### Collaboration

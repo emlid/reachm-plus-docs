@@ -17,7 +17,7 @@ ERB support is included to ArduPilot starting with the following versions:
 
 ## Recommended setup
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/reach-ardupilot-scheme.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/reach-ardupilot-scheme.png" style="width: 800px;"></div>
 
 The setup we recommend goes as follows:
 
@@ -34,13 +34,13 @@ The following guide will show how to configure both Navio or Pixhawk and Reach t
 
 ## Connecting Reach to Pixhawk
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/pixhawk-reach-radio.png" style="width: 500px;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/pixhawk-reach-radio.png" style="width: 500px;"></div>
 
 To provide RTK solution to Pixhawk, Reach needs to be connected via a serial port. You can do that by plugging the serial cable into Reach's upper DF13 port and Pixhawk's **"Serial 4/5"** connector.
 
 ## Connecting Reach to Navio
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/navio2-reach.png" style="width: 500px;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/navio2-reach.png" style="width: 500px;"></div>
 
 Connect Reach's upper DF13 port with Navio's **UART** port.
 
@@ -60,7 +60,7 @@ Start with configuration base correction input:
 * Choose **RTCM3** as base corrections format
 * Hit **Apply** button to save settings
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/reach-base-correction-input.png" style="width: 100%;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/reach-base-correction-input.png" style="width: 100%;"></div>
 
 Now configure position output:
 
@@ -71,7 +71,7 @@ Now configure position output:
 * Choose **ERB** as position output format
 * Hit **Apply** button button to save settings
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/reach-position-output.png" style="width: 100%;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/reach-position-output.png" style="width: 100%;"></div>
 
 !!! note
 	**ERB** is a custom protocol, used to send location data to the autopilot.
@@ -97,7 +97,7 @@ You need to clear the field **ECC** and choose **Raw Data** in the Mavlink selec
 After this, click **Save settings**. If your radio's firmware is outdated, update with **Update Firmware(Local)**.
 
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-radio-setup.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/mp-radio-setup.png" style="width: 800px;"></div>
 
 ### Configuring ArduPilot to accept Reach solution
 
@@ -112,29 +112,29 @@ This will enable to use Reach as external GPS.
 
 ArduPilot configuration will require setting some parameters via Mission planner. After connecting, go to **CONFIG/TUNING** menu, then click **Full parameters list** on the left. To find the desired parameter more quickly, use a search box on the right(highlighted in red).
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-full-parameter-list.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/mp-full-parameter-list.png" style="width: 800px;"></div>
 
 Start with settings **GPS-TYPE2** parameter to **"1"** - AUTO. This will enable the second GPS input.
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-gps-type2-parameter.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/mp-gps-type2-parameter.png" style="width: 800px;"></div>
 
 Next, set **SERIAL4_BAUD** parameter to the same baud rate, as chosen in ReachView solution output. Note the options corresponding to the different baud rates.
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-serial4-baud-parameter.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/mp-serial4-baud-parameter.png" style="width: 800px;"></div>
 
 Set **GPS_AUTO_SWITCH** to **"1"** - Enabled. Autopilot will automatically switch between the two GPS receivers, picking the one with better solution.
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-gps-auto-switch-parameter.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/mp-gps-auto-switch-parameter.png" style="width: 800px;"></div>
 
 Finally, set **GPS_INJECT_TO** parameter to **"1"**. **"1"** here stands for the second GPS input. If you configured Reach as the first input, set this parameter to **"0"**.
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-gps-inject-to-parameter.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/mp-gps-inject-to-parameter.png" style="width: 800px;"></div>
 
 ### Configuring Mission planner to inject RTK corrections into telemetry
 
 To enable and configure GPS inject options in Mission planner press **"ctrl+F"** button combination. This will open a window with advanced GCS settings. Click **Inject GPS** button on the right.
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-gps-inject-settings.png" style="width: 70%;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/mp-gps-inject-settings.png" style="width: 70%;"></div>
 
 In the new window, choose parameters for base connection. Reach in base mode supports TCP and serial modes. For the sake of this example, **let's assume base corrections are coming from another Reach in base TCP server mode**. This is a setup we usually use in our test flights.
 
@@ -148,20 +148,20 @@ Let's configure our Reach device:
 * Set 9000 as Port
 * Hit **Apply** button button to save settings
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/reach-base-mode.png" style="width: 100%;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/reach-base-mode.png" style="width: 100%;"></div>
 
 In order to connect, choose TCP client mode in Mission Planner.
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-gps-inject-connection-type-new.png" style="width: 80%;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/mp-gps-inject-connection-type-new.png" style="width: 80%;"></div>
 
 Enter Base Reach's IP address.
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-gps-inject-ip-new.png" style="width: 60%;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/mp-gps-inject-ip-new.png" style="width: 60%;"></div>
 
 And port the server port number.
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-gps-inject-port-new.png" style="width: 60%;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/mp-gps-inject-port-new.png" style="width: 60%;"></div>
 
 Finally, check the corrections are coming in.
 
-<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-gps-inject-connected-new.png" style="width: 70%;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/mp-gps-inject-connected-new.png" style="width: 70%;"></div>

@@ -1,5 +1,5 @@
 
-Reach supports various accessories via it's built-in USB OTG port and UART interface on the DF13 connector
+Reach supports various accessories via it's built-in USB OTG port and UART interface on the JST-GH connectors.
 
 ### Radio
 
@@ -13,7 +13,7 @@ Logic level on UART in Reach is 3.3V but pins are 5V tolerant, so you can use bo
 
 UART radio is accessible on Reach as a serial device with the name **ttyMFD2**.
 
-To connect UART radio to Reach use upper DF13 port (the one near the USB).
+To connect UART radio to Reach use upper JST-GH port (the one near the USB).
 
 | Reach pins | Radio pins |
 |:----------:|:----------:|
@@ -24,31 +24,23 @@ To connect UART radio to Reach use upper DF13 port (the one near the USB).
 
 #### 3DR Radio
 
-<div style="text-align: center;"><img src="../img/reach/hardware-integration/reach-3dr-radio.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/hardware-integration/3dr.png" style="width: 700px;"></div><br>
 
-Connection diagram for 3DR Radio v2:
-
-<div style="text-align: center;"><img src="../img/reach/hardware-integration/reach-3dr-radio-connection-map.png" style="width: 550px;"></div><br>
 
 3DR Radio can also be connected over USB.
 
-Please note that a bug in the **Reach image before v1.2** prevents the Rover module from booting while it`s receiving UART correction signals from the base module. Current fix is powering up base module after the rover module has booted (LED are blinking red/blue/white).
-
 #### RFD900 Radio
 
-<div style="text-align: center;"><img src="../img/reach/hardware-integration/reach-rfd900-radio.png" style="width: 550px;"></div><br>
-
-Connection diagram for RFD900 radio:
-
-<div style="text-align: center;"><img src="../img/reach/hardware-integration/reach-rfd900-radio-connection-map.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/hardware-integration/rfd.png" style="width: 700px;"></div><br>
 
 !!! attention
     Please mind that RFD can consume up to 800ma in peaks so make sure that your power source can provide enough power for both Reach and RFD900.
 
-#### Connecting USB radio
+<br>
+#### Connecting USB radio or LTE modem
 
-<div style="text-align: center;"><img src="../img/reach/hardware-integration/reach-usb-radio.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/hardware-integration/lte-modem.png" style="width: 700px;"></div><br>
 
-To connect USB radio to Reach use USB-OTG cable provided with the package.
+To connect USB radio or LTE-modem to Reach use USB-OTG cable provided with the package.
 Plug radio into USB-F port and plug Micro-USB end of the cable in Reach.
-**When using USB port in OTG mode Reach has to be [powered](power-supply.md) over one of the DF13 ports**.
+**When using USB port in OTG mode Reach has to be [powered](power-supply.md) over one of the JST-GH ports**.

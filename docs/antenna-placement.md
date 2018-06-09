@@ -6,7 +6,7 @@ You can place your smartphone near the window in your house and it will obtain G
 
 Antenna needs to have a clear skyview 30 degrees above the horizon. There should be no obstacles that could block the view like: buildings, trees, cars, humans, laptops etc.
 
-<div style="text-align: center;"><img src="../img/reach/antenna-placement/skyview-obstacles.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/antenna-placement/antenna-mount.png" style="width: 550px;"></div><br>
 
 
 Examples of **bad** environments for antenna placement: indoors, urban areas, forest, close to the ground.
@@ -23,4 +23,4 @@ Antenna has to be placed on a ground plane which reduces multipath, provides shi
 
 Tallysman TW4721 requires ground plane no less than 70x70mm.
 
-<div style="text-align: center;"><img src="../img/reach/antenna-placement/antenna-ground-plane.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachm-plus/antenna-placement/antenna-ground-plane.png" style="width: 550px;"></div><br>
