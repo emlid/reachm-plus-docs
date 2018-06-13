@@ -2,10 +2,12 @@
 
 ### Dimensions
 
-Reach M+ module is very compact and lightweight device fitting almost every drone. 
+
 
 <div style="text-align: center;"><img src="../img/reachm-plus/specs/dimensions.png" style="width: 650px;"></div><br>
 <div style="text-align: center;"><img src="../img/reachm-plus/specs/height.png" style="width: 650px;"></div><br>
+
+Reach M+ module weights 20g.
 
 ### Connectors mating parts
 

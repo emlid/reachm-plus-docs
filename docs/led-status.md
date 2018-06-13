@@ -17,6 +17,7 @@ Reach M+ has three LEDs, which are used as status indicators for three different
 
 | LED state | Demo |
 |-----------|------|
+|Reach M+ is OFF |<div style="text-align: center;"><img src="../img/reachm-plus/led-status/grey.png" style="width: 30px;"></div>  |
 |Normal operation|<div style="text-align: center;"><img src="../img/reachm-plus/led-status/orange.png" style="width: 30px;"></div>  |
 
 
@@ -59,11 +60,11 @@ The table below demonstrates possible flash patterns describing various states o
 
 | Reach State  |  Demo |
 |--------------|-------|
-|<br><br><br><br> <div style="text-align: center;">    OFF   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/off.png" style="height: 250px;"></div> |
-|<br><br><br><br> <div style="text-align: center;">    Time sync   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/time-sync.gif" style="height: 250px;"></div> |
-|<br><br><br><br> <div style="text-align: center;">    Low battery   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/lack-of-power.gif" style="height: 250px;"></div> |
-|<br><br><br><br> <div style="text-align: center;">    Network scan   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/network-scan.gif" style="height: 250px;"></div> |
-|<br><br><br><br> <div style="text-align: center;">     App running, client Wi-Fi mode   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/running-client.gif" style="height: 250px;"></div>
-|<br><br><br><br> <div style="text-align: center;">    App running, hotspot mode   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/running-hotspot.png" style="height: 250px;"></div> |
-|<br><br><br><br> <div style="text-align: center;">    Point collection <br> _assuming the device is in hotspot mode_   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/point-collection.gif" style="height: 250px;"></div>
-|<br><br><br><br> <div style="text-align: center;">    Internal error <br> _assuming the device is in hotspot mode_   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/error.png" style="height: 250px;"></div>
+|<br><br><br><br> <div style="text-align: center;">    OFF   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/off.png" style="height: 150px;"></div> |
+|<br><br><br><br> <div style="text-align: center;">    Loading   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/loading.gif" style="height: 150px;"></div> |
+|<br><br><br><br> <div style="text-align: center;">    Time sync   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/time-sync.gif" style="height: 150px;"></div> |
+|<br><br><br><br> <div style="text-align: center;">    Network scan   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/network-scan.gif" style="height: 150px;"></div> |
+|<br><br><br><br> <div style="text-align: center;">     App running, client Wi-Fi mode   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/running-client.gif" style="height: 150px;"></div>
+|<br><br><br><br> <div style="text-align: center;">    App running, hotspot mode   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/running-hotspot.gif" style="height: 150px;"></div> |
+|<br><br><br><br> <div style="text-align: center;">    Point collection <br> _assuming the device is in hotspot mode_   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/point-collection.gif" style="height: 150px;"></div>
+|<br><br><br><br> <div style="text-align: center;">    Internal error <br> _assuming the device is in hotspot mode_   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm-plus/led-status/error.png" style="height: 150px;"></div>
