@@ -17,32 +17,32 @@ ERB support is included to ArduPilot starting with the following versions:
 
 ## Recommended setup
 
-<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/reach-ardupilot-scheme.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/reachm-ardupilot-scheme.png" style="width: 800px;"></div>
 
 The setup we recommend goes as follows:
 
 * Navio or Pixhawk with the ArduPilot firmware (not less version 3.4.0 for ArduCopter, 3.6.0 for ArduPlane and 3.0.1 for ArduRover). It's preferable to use the last stable version
-* Base stations is a Reach unit in Wi-Fi AP mode, configured as a TCP server
+* Base stations is a Reach RS/RS+ unit in Wi-Fi AP mode, configured as a TCP server
 * GCS is a laptop with Mission Planner(version 1.3.35 and higher), connected to the base Reach Wi-Fi hosted network
 * Telemetry connection via a serial radio
-* Rover Reach unit is mounted on a drone and connected to Navio or Pixhawk via the 6P-to-6P wire. This connection type will solve three problems at once: power Reach, allow ArduPilot board to pass base corrections and allow Reach to pass RTK solution back.
+* Rover Reach M+ unit is mounted on a drone and connected to Navio or Pixhawk via the 6P-to-6P wire. This connection type will solve three problems at once: power Reach, allow ArduPilot board to pass base corrections and allow Reach to pass RTK solution back.
 
 The following guide will show how to configure both Navio or Pixhawk and Reach to work in this setup. If you wish alter to this workflow, it should be fairly easy to do so, as every part of the system is independent of others.
 
 
 
 
-## Connecting Reach to Pixhawk
+## Connecting Reach M+ to Pixhawk
 
-<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/pixhawk-reach-radio.png" style="width: 500px;"></div>
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/pixhawk-reachm-radio.png" style="width: 500px;"></div>
 
-To provide RTK solution to Pixhawk, Reach needs to be connected via a serial port. You can do that by plugging the serial cable into Reach's upper DF13 port and Pixhawk's **"Serial 4/5"** connector.
+To provide RTK solution to Pixhawk, Reach needs to be connected via a serial port. You can do that by plugging the serial cable into Reach's JST-GH port and Pixhawk's **"Serial 4/5"** connector.
 
-## Connecting Reach to Navio
+## Connecting Reach M+ to Navio
 
 <div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/navio2-reach.png" style="width: 500px;"></div>
 
-Connect Reach's upper DF13 port with Navio's **UART** port.
+Connect Reach's JST-GH port with Navio's **UART** port.
 
 ## Configuring Reach to work with ArduPilot
 

@@ -11,7 +11,7 @@ Reach M+ module weights 20g.
 
 ### Connectors mating parts
 
-Reach has 4 GST-JH connectors and comes with all required cables to connect to other devices.
+Reach has 4 JST-GH connectors and comes with all required cables to connect to other devices.
 
 Antenna connector is MCX, to connect to SMA or TNC antenna cable you can use one of the numerous adapters. ([cable](http://www.digikey.com/product-detail/en/CAB.0130/931-1102-ND/2332729), [adapter](http://www.digikey.com/product-detail/en/242127/ACX1348-ND/1012025))
 
@@ -30,7 +30,7 @@ Reach M+ 3D model can be downloaded here:
 
 |Name                                       | Value                |
 |-------------------------------------------|----------------------|
-| Inout voltage on USB and DF13 connectors  | 4.75 - 5.5 V         |
+| Inout voltage on USB and JST-GH connectors  | 4.75 - 5.5 V         |
 | Logic levels on all pins                  | 3.3 V                |
 | Max input voltage on all pins             | 5.5 V                |
 | Antenna DC bias                           | 3.3 V                |
@@ -47,4 +47,4 @@ Reach M+ 3D model can be downloaded here:
 
 ### USB OTG
 
-Reach can both receive power from USB, acting as a device and source power to the port acting as a host. To use Reach in OTG mode you will need to connect 5V power source to GST-JH connector pins (5 V, GND) and use OTG USB cable.
+Reach can both receive power from USB, acting as a device and source power to the port acting as a host. To use Reach in OTG mode you will need to connect 5V power source to JST-GH connector pins (5 V, GND) and use OTG USB cable.
