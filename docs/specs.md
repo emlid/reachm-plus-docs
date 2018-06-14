@@ -30,7 +30,7 @@ Reach M+ 3D model can be downloaded here:
 
 |Name                                       | Value                |
 |-------------------------------------------|----------------------|
-| Inout voltage on USB and JST-GH connectors  | 4.75 - 5.5 V         |
+| Input voltage on USB and JST-GH connectors  | 4.75 - 5.5 V         |
 | Logic levels on all pins                  | 3.3 V                |
 | Max input voltage on all pins             | 5.5 V                |
 | Antenna DC bias                           | 3.3 V                |
