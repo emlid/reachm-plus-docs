@@ -32,13 +32,13 @@ Reach M+ 3D model can be downloaded here:
 |-------------------------------------------|----------------------|
 | Inout voltage on USB and JST-GH connectors  | 4.75 - 5.5 V         |
 | Logic levels on all pins                  | 3.3 V                |
-| Max input voltage on all pins             | 5.5 V                |
+| Max input voltage on all pins             | 3.3 V                |
 | Antenna DC bias                           | 3.3 V                |
 | Antenna output current                    | 100 mA               |
 | Max current consumption @5V               | 500 mA               |
 | Normal current consumption @5V            | 200 mA               |
 | Current limit on USB OTG                  | 1000 mA              |
-| Temperature range                         | -20…+65ºC		   |
+| Temperature range                         | -20…+70ºC		   |
 
 
 ### Connectors pinout
