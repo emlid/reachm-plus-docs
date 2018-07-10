@@ -44,6 +44,12 @@ To provide RTK solution to Pixhawk, Reach needs to be connected via a serial por
 
 Connect Reach's JST-GH port with Navio's **UART** port.
 
+## Connecting Reach M+ to Edge
+
+<div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/edge-reach-connection.png" style="width: 500px"></div>
+
+Connect Reach's JST-GH port with Edge's SER1-I2C port. Edge and Reach M+ integration guide may be found in Edge docs: [Reach integration](https://docs.emlid.com/edge/tutorials/reach-integration/).
+
 ## Configuring Reach to work with ArduPilot
 
 ### Rover setup
