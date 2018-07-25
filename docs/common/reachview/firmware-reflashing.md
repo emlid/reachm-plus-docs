@@ -119,7 +119,7 @@ Then press '**install driver**' button.
 
 To flash:
 
-* Unzip downloaded image and Firmware Flash tool
+* Unzip downloaded image and Firmware Flash tool to **C:\Emlid**
 * Run reachplus_flasher.exe as an administrator
 * Connect Reach in Firmware Update mode to PC and wait until eMMC is initialized
 * In the "**Image File**" field select Reach image
