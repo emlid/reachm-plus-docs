@@ -101,8 +101,13 @@ Get Firmware Flash tool for Windows: [Reach Firmware Flash Tool](https://files.e
 
 Before the first launch of Flash tool you need to install USB driver using Zadig tool. You can find Zadig.exe file in Firmware Flash tool zip-folder. Reach should be connected in Firmware Update mode.
 
+##### Entering Firmware Update Mode
+
 !!! attention ""
-	To enable Firmware Update mode press and hold the power button and then plug the USB into PC. All three LEDs should blink several times simultaneously, and then start blinking one after another. <br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/flashing-mode.gif" style="width: 400px;" /></p>
+	To enable Firmware Update mode on Reach RS+ press and hold the power button and then plug the USB into PC. All three LEDs should blink several times simultaneously, and then start blinking one after another. <br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/flashing-mode.gif" style="width: 400px;" /></p>
+
+!!! attention ""
+	To enable Firmware Update mode on Reach M+ use pin to press and hold button, located in deepening under power LED and then plug the USB into PC. No LEDs should blink. <br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/flashing-mode-m.gif" style="width: 400px;" /></p>
 
 After connecting Reach in Firmware Update mode run Zadig.exe and wait for '1 device found' message in bottom left corner. 
 
