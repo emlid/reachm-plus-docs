@@ -112,7 +112,7 @@ Before the first launch of Flash tool you need to install USB driver using Zadig
 After connecting Reach in Firmware Update mode run Zadig.exe and wait for '1 device found' message in bottom left corner. 
 
 !!! tip ""
-	You have to install the driver with Zadig on your PC only once. During next firmware update, you could skip this step.
+	You have to install the driver with Zadig on your PC just once. During the next firmware update, you can skip this step.
 
 Then press '**install driver**' button.
 
