@@ -88,7 +88,7 @@ Proceed to Quickstart section to set up your Reach / Reach RS:
 
 Get the latest version:
 
-[**Reach Plus Image v1.10  ↓**](https://files.emlid.com/images/reach-plus-v1.10.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)
+[**Reach Plus Image v2.11.3  ↓**](http://files.emlid.com/images/reach-plus-v2.11.3.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)
 
 ## Flashing process
 
