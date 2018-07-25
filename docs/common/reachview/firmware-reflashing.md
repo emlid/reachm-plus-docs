@@ -104,12 +104,18 @@ Before the first launch of Flash tool you need to install USB driver using Zadig
 !!! attention ""
 	To enable Firmware Update mode press and hold the power button and then plug the USB into PC. All three LEDs should blink several times simultaneously, and then start blinking one after another. <br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/flashing-mode.gif" style="width: 400px;" /></p>
 
-After connecting Reach in Firmware Update mode run Zadig.exe and wait for '1 device found' message in bottom left corner. Then press '**install driver**' button.
+After connecting Reach in Firmware Update mode run Zadig.exe and wait for '1 device found' message in bottom left corner. 
+
+!!! tip ""
+	You have to install the driver with Zadig on your PC only once. During next firmware update, you could skip this step.
+
+Then press '**install driver**' button.
 
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/zadig-tool.PNG"/></p>
 
 !!! note ""
 	Tick the "Edit" checkbox on the right hand side and enter any USB device name you like. Later it will help to distinguish your device from other USB entries in the Device Manager.
+
 
 To flash:
 
