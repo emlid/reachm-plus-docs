@@ -48,3 +48,9 @@ Reach M+ 3D model can be downloaded here:
 ### USB OTG
 
 Reach can both receive power from USB, acting as a device and source power to the port acting as a host. To use Reach in OTG mode you will need to connect 5V power source to JST-GH connector pins (5 V, GND) and use OTG USB cable.
+
+## Compliance
+
+CE Compliance documents can be found here:
+
+* [Reach M+ CE Declaration of conformity](https://files.emlid.com/compliance/RM_CE_declaration.pdf)
