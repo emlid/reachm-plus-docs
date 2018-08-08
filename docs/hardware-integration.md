@@ -44,3 +44,6 @@ To connect UART radio to Reach use upper JST-GH port (the one near the USB).
 To connect USB radio or LTE-modem to Reach use USB-OTG cable provided with the package.
 Plug radio into USB-F port and plug Micro-USB end of the cable in Reach.
 **When using USB port in OTG mode Reach has to be [powered](power-supply.md) over one of the JST-GH ports**.
+
+!!! note "Connecting LTE modem"
+	Make sure that Reach M+ is in hotspot mode, and an LTE modem is preconfigured to connect to the Internet automatically after powering.
