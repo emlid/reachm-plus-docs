@@ -13,7 +13,7 @@ Logic level on UART in Reach is 3.3V but pins are 5V tolerant, so you can use bo
 
 UART radio is accessible on Reach as a serial device with the name **ttyMFD2**.
 
-To connect UART radio to Reach use upper JST-GH port (the one near the USB).
+To connect UART radio to Reach use lower JST-GH port (S1).
 
 | Reach pins | Radio pins |
 |:----------:|:----------:|
@@ -47,3 +47,9 @@ Plug radio into USB-F port and plug Micro-USB end of the cable in Reach.
 
 !!! note "Connecting LTE modem"
 	Make sure that Reach M+ is in hotspot mode, and an LTE modem is preconfigured to connect to the Internet automatically after powering.
+<br>
+#### Connecting LoRa radio
+
+<div style="text-align: center;"><img src="../img/reachm-plus/hardware-integration/lora.png" style="width: 700px;"></div><br>
+
+To connect LoRa radio to Reach use upper JST-GH port (S2).
