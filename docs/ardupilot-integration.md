@@ -38,6 +38,9 @@ The following guide will show how to configure both Navio or Pixhawk and Reach t
 
 To provide RTK solution to Pixhawk, Reach needs to be connected via a serial port. You can do that by plugging the serial cable into Reach's JST-GH port and Pixhawk's **"Serial 4/5"** connector.
 
+!!! note ""
+	It's recommended to supply Reach M+ from an external power source. Pixhawk may not provide enough power for Reach in some cases.
+
 ## Connecting Reach M+ to Navio over UART
 
 <div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/navio2-reachm.png" style="width: 500px;"></div>
