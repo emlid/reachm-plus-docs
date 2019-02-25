@@ -1,12 +1,7 @@
-## Welcome to documentation for Reach M+
+# Documentation for Emlid Reach M+ receiver
 
-### Building
+This repository is deprecated.
 
-```
-pip install mkdocs
-mkdocs serve -a 0.0.0.0:8000
-```
+Use [this](https://github.com/emlid/emlid-docs) repository.
 
-### Explore
-
-Just point your browser to localhost:8000
+Thank you for your contributions.
